@@ -6,10 +6,13 @@ Les critères suivants ont été respectés :
 * fonctionnement en mode déconnecté
 * possibilité d'embarquer des fonds de plans
 
-Il y a 2 versions de l'application :
+![triangle geppa](triangle_geppa_light.png "Classes Geppa" =231x231)
 
-* une version pour QGis sur tablette : c'est la version qui est (a été) utilisée par Solenvie sur le terrain pendant la campagne du projet
-* une version pour QField sur smartphone. Cette version est une adaptation de la précédente. Elle n'a pas été testée en production.
+
+Vous pouvez utiliser l'application :
+
+* sur QGis : c'est la version qui est (a été) utilisée par Solenvie sur le terrain pendant la campagne du projet sur une tablette.
+* sur QField sur smartphone. Cette version est une adaptation de la précédente. Elle n'a pas été testée en production.
 
 Les données saisies sont stockées dans le fichier data.gpkg au format [geopackage](https://www.geopackage.org/) :
 
