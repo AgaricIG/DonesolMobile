@@ -1,22 +1,31 @@
-Vous trouverez ici deux applications de saisie au format [Donesol3](https://dw3.gissol.fr/). Ces applications sont réalisées dans le cadre du projet TI Dijon Métropole. Elles ont été conçues par Agaric-IG et Sol-Envie.
+# DONESOL MOBILE
+
+## Applications de saisie sur le terrain
+
+Vous trouverez ici deux applications de saisie au format [Donesol3](https://dw3.gissol.fr/), réalisées dans le cadre du projet TI Dijon Métropole et conçues par Agaric-IG et Sol-Envie.
+
+Ces applications permettent de saisir :
+
+* des sondages pédologiques (échantillon)
+* des profils pédologiques (fosses)
+
+![triangle_geppa_light.png](.attachments.690782/triangle_geppa_light.png)
+
+### Sondages pédologiques (échantillon)
 
 Les critères suivants ont été respectés :
-<img align="right" src="triangle_geppa_light.png" width="231" height="231" />
 
-
-* utilisation du modèle de données Donesol3 
+* utilisation du modèle de données Donesol3
 * fonctionnement en mode déconnecté
 * possibilité d'embarquer des fonds de plans
+* possibilité d'intégrer des images / guides dans le formulaire
 
-
-Vous pouvez utiliser l'application :
+Cette application de saisie est utilisable :
 
 * sur [QGis](https://qgis.org) : c'est la version qui est (a été) utilisée par Solenvie sur le terrain pendant la campagne du projet sur une tablette.
 * sur [QField](https://qfield.org) sur smartphone. Cette version est une adaptation de la précédente. Elle n'a pas été testée en production.
 
-Les données saisies sont stockées dans le fichier data.gpkg au format [geopackage](https://www.geopackage.org/) :
-
-<img align="right" src="classe_geppa_vf.png" height="231" />
+Les données saisies sont stockées dans le fichier data.gpkg au format [**geopackage**](https://www.geopackage.org/)\*\* :\*\*
 
 Elles sont stockées dans les tables
 
@@ -24,9 +33,37 @@ Elles sont stockées dans les tables
 * horizons
 
 Les autres tables sont des références externes qui sont utilisées pour le remplissage des listes déroulantes.
-Le projet est livré avec un fond de plan basé sur Openstreetmap (©openstreetmap contributors) au format geopackage également, sur la zone de Dijon Métropole.
 
-Cette application peut être améliorée sur plusieurs points :
+![pente_dark.png](.attachments.690782/pente_dark.png)
+
+### Profils pédologiques (fosses)
+
+Les critères suivants ont été respectés :
+
+* utilisation du modèle de données Donesol3
+* fonctionnement en mode déconnecté
+* possibilité d'embarquer des fonds de plans
+* possibilité d'intégrer des images / guides dans le formulaire
+
+Vous pouvez utiliser l'application :
+
+* sur [QGis](https://qgis.org) : c'est la version qui est (a été) utilisée par Solenvie sur le terrain pendant la campagne du projet sur une tablette.
+* sur [QField](https://qfield.org) sur smartphone. Cette version est une adaptation de la précédente. Elle n'a pas été testée en production.
+
+Les données saisies sont stockées dans le fichier data.gpkg au format [**geopackage**](https://www.geopackage.org/)\*\* :\*\*
+
+Elles sont stockées dans les tables
+
+* fosses (avec une extension)
+* horizons
+
+Les autres tables sont des références externes qui sont utilisées pour le remplissage des listes déroulantes.
+
+![classe_geppa_vf.png](.attachments.690782/classe_geppa_vf.png)
+
+### Perspectives
+
+Ces applications peuvent être améliorées sur plusieurs points :
 
 *QGis*
 
